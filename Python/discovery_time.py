@@ -69,7 +69,7 @@ finally:
 
 print("*discovery time order to be printed in the csv file:", order_device_list(info))
 
-send_data_to_csv("table.csv", info)
+send_data_to_csv("table.csv", order_device_list(info))
 
 
         

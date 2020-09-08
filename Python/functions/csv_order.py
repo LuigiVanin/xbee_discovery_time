@@ -23,4 +23,4 @@ def order_device_list(network_info):
 def send_data_to_csv(csvfile_name, info):
     with open(csvfile_name, "a", newline="") as csvfile:
         input_csv = wt(csvfile, delimiter=',')
-        input_csv.writerow(order_device_list(info))
+        input_csv.writerow(info)
