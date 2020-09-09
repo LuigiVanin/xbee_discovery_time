@@ -27,7 +27,7 @@ def callback_device_discovered(remote):
 # Callback for discovery finished. -----------------------
 def callback_discovery_finished(status):
     if status == NetworkDiscoveryStatus.SUCCESS:
-        print("\n\t--------- Discovery process finished successfully. ---------\n")
+        print("\n\t=-------- Discovery process finished successfully. --------=\n")
     else:
         print("There was an error discovering devices: %s" % status.description)
 
@@ -51,7 +51,7 @@ try:
 
     xbee_network.add_discovery_process_finished_callback(callback_discovery_finished)
 
-    print("\t--------- Starting Device discover process ---------\n")
+    print("\t=-------- Starting Device discover process --------=\n")
 
     xbee_network.start_discovery_process()
 
