@@ -1,9 +1,11 @@
-# header = [" ESTACAO_BASE", " ROUTER_01", " ROUTER_03"
+# header = [" ROUTER_01"," ROUTER_02"]
+# header = [" ROUTER_01"," ROUTER_02", " ROUTER_03"]
+# header = [" ROUTER_01"," COORDINATOR"]
 from csv import reader as rd
 from csv import writer as wt
 
-csvfile_name = "/home/htnek/Documentos/Project/Python/Database/Model_01.csv"
-header = [" ROUTER_01"," ROUTER_02"]
+csvfile_name = "/home/htnek/Documentos/Project/Python/Database/Model_04.csv"
+header = [" ROUTER_01"," COORDINATOR"]
 # header_table = ["Attempt"] + header
 
 def order_device_list( network_info):

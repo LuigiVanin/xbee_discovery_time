@@ -1,0 +1,78 @@
+- experimento no modelo 1(Model_01):
+
+    DOIS DISPOSITIVOS XBEE: ROUTER_01 - 0013A2004089DED2 - ZigBee Router.   (LOCAL)
+                            ROUTER_02 - 0013A2004089DEBB - ZigBee Router.   (REMOTO)
+
+
+    POSIÇÃO DOS DISPOSITIVOS(X, Y): ROUTER_01 = (0,0) m
+                                    ROUTER_02 = (15, 0) m
+--------------------------------------------------------------------------------------
+
+
+
+- experimento no modelo 1 B(Model_01B):
+
+    DOIS DISPOSITIVOS XBEE: ROUTER_01 - 0013A2004089DED2 - ZigBee Router.   (LOCAL)
+                            ROUTER_02 - 0013A2004089DEBB - ZigBee Router.   (REMOTO)
+
+
+    POSIÇÃO DOS DISPOSITIVOS(X, Y): ROUTER_01 = (0,0) m
+                                    ROUTER_02 = (20, 0) m
+--------------------------------------------------------------------------------------
+
+
+
+- experimento no modelo 2(Model_02):
+
+    TRÊS DISPOSITIVOS XBEE: ROUTER_01 - 0013A2004089DED2 - ZigBee Router.   (LOCAL)
+                            ROUTER_02 - 0013A2004089DEBB - ZigBee Router.   (REMOTO)
+                            ROUTER_03 - 0013A200409028CF - ZigBee Router.   (REMOTO)
+
+
+    POSIÇÃO DOS DISPOSITIVOS(X, Y): ROUTER_01 = (0,0) m
+                                    ROUTER_02 = (12, 0) m 
+                                    ROUTER_03 = (10, 2) m
+--------------------------------------------------------------------------------------
+            
+
+
+- experimento no modelo 2 B(Model_02B):
+
+    TRÊS DISPOSITIVOS XBEE: ROUTER_01 - 0013A2004089DED2 - ZigBee Router.   (LOCAL)
+                            ROUTER_02 - 0013A2004089DEBB - ZigBee Router.   (REMOTO)
+                            ROUTER_03 - 0013A200409028CF - ZigBee Router.   (REMOTO)
+
+
+    POSIÇÃO DOS DISPOSITIVOS(X, Y): ROUTER_01 = (0,0) m
+                                    ROUTER_02 = (20, 0) m 
+                                    ROUTER_03 = (10, 2) m
+--------------------------------------------------------------------------------------
+
+
+- experimento no modelo 4(Model_04):
+
+    DOIS DISPOSITIVOS XBEE: ROUTER_01 - 0013A2004089DED2 - ZigBee Router.   (LOCAL)
+                            COORDINATOR - 0013A2004089DEDC - ZigBee Coordinator.   (REMOTO)
+
+
+    POSIÇÃO DOS DISPOSITIVOS(X, Y): ROUTER_01 = (0,0) m
+                                    COORDINATOR = (20, 0) m
+--------------------------------------------------------------------------------------
+
+
+
+- experimento no modelo 5(Model_05):
+
+    DOIS DISPOSITIVOS XBEE: ROUTER_01 - 0013A2004089DED2 - ZigBee Router.   (LOCAL)
+                            COORDINATOR - 0013A2004089DEDC - ZigBee Coordinator.   (REMOTO)
+                            END_01 - 0013A200409028CF - ZigBee End Device.  (REMOTO)
+
+
+    POSIÇÃO DOS DISPOSITIVOS(X, Y): ROUTER_01 = (0,0) m
+                                    COORDINATOR = (20, 0) m
+                                    END_01 = (12, 2) m
+--------------------------------------------------------------------------------------
+
+
+
+

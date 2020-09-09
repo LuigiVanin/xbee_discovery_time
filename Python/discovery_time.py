@@ -11,7 +11,6 @@ print()
 PORT = "/dev/ttyUSB0"
 BAUD_RATE = 9600
 
-csvfile = "table.csv"
 device = ZigBeeDevice(PORT, BAUD_RATE)
 # : ---
 info = network_info()
@@ -44,7 +43,7 @@ try:
     info.start_timer()
     
     
-    xbee_network.set_discovery_timeout(15)  # 15 seconds.
+    xbee_network.set_discovery_timeout(25)  # 25 seconds.
     xbee_network.clear()
 
     xbee_network.add_device_discovered_callback(callback_device_discovered)
