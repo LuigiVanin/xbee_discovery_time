@@ -11,13 +11,13 @@ print()
 PORT = "/dev/ttyUSB0"
 BAUD_RATE = 9600
 
+csvfile = "table.csv"
 device = ZigBeeDevice(PORT, BAUD_RATE)
-
+# : ---
 info = network_info()
 
 # Callback for discovery device -------------------------
 def callback_device_discovered(remote):
-    global info
 
     info.add_time(remote.get_node_id())
     print("\n- Device discovered: %s" % remote)
@@ -69,7 +69,7 @@ finally:
 
 print("*discovery time order to be printed in the csv file:", order_device_list(info))
 
-send_data_to_csv("table.csv", order_device_list(info))
+send_data_to_csv(order_device_list( info))
 
 
         
