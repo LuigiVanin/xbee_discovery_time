@@ -63,14 +63,30 @@
 
 - experimento no modelo 5(Model_05):
 
-    DOIS DISPOSITIVOS XBEE: ROUTER_01 - 0013A2004089DED2 - ZigBee Router.   (LOCAL)
-                            COORDINATOR - 0013A2004089DEDC - ZigBee Coordinator.   (REMOTO)
-                            END_01 - 0013A200409028CF - ZigBee End Device.  (REMOTO)
+    QUATRO DISPOSITIVOS XBEE: BASE-ESTATION-2 - 0013A20040A88C79 - DigiMesh Router. (LOCAL)
+                              BASE-ESTATION - 0013A20040A88CA5 - DigiMesh Router. (REMOTO)
+                              RELAY-UAV - 0013A20040A88C9A - DigiMesh Router. (REMOTO
+                              SENDER-UAV - 0013A20040A88C83 - DigiMesh Router. (REMOTO
 
 
-    POSIÇÃO DOS DISPOSITIVOS(X, Y): ROUTER_01 = (0,0) m
-                                    COORDINATOR = (20, 0) m
-                                    END_01 = (12, 2) m
+    POSIÇÃO DOS DISPOSITIVOS(X, Y): BASE-ESTATION-2 = (0,0) m
+                                    RELAY-UAV = (20, 0) m
+                                    SENDER-UAV = (12, 2) m
+                                    BASE-ESTATION = (12, -5) m
+--------------------------------------------------------------------------------------
+
+
+
+- experimento no modelo 6(Model_06):
+
+    TRÊS DISPOSITIVOS XBEE: BASE-ESTATION-2 - 0013A20040A88C79 - DigiMesh Router. (LOCAL)
+                            BASE-ESTATION - 0013A20040A88CA5 - DigiMesh Router. (REMOTO)
+                            SENDER-UAV - 0013A20040A88C83 - DigiMesh Router. (REMOTO
+
+
+    POSIÇÃO DOS DISPOSITIVOS(X, Y): BASE-ESTATION-2 = (0,0) m
+                                    BASE-ESTATION = (20, 0) m
+                                    SENDER-UAV = (12, 2) m
 --------------------------------------------------------------------------------------
 
 

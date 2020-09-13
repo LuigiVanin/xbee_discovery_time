@@ -4,8 +4,8 @@
 from csv import reader as rd
 from csv import writer as wt
 
-csvfile_name = "/home/htnek/Documentos/Project/Python/Database/Model_04.csv"
-header = [" ROUTER_01"," COORDINATOR"]
+csvfile_name = "/home/htnek/Documentos/Project/Python/Database/Model_10.csv"
+header = ["BASE-ESTATION", "BASE-ESTATION-2"]
 # header_table = ["Attempt"] + header
 
 def order_device_list( network_info):

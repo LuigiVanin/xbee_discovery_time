@@ -1,5 +1,6 @@
 from digi.xbee.models.status import NetworkDiscoveryStatus
 from digi.xbee.devices import ZigBeeDevice
+from digi.xbee.devices import DigiMeshDevice
 from time import sleep, time
 from classes.discovery_time_process import network_info
 from functions.csv_order import order_device_list
@@ -8,11 +9,14 @@ from functions.csv_order import send_data_to_csv
 
 print()
 
-PORT = "/dev/ttyUSB0"
-BAUD_RATE = 9600
+PORT = "/dev/ttyUSB1"
+BAUD_RATE = 115200
 
-device = ZigBeeDevice(PORT, BAUD_RATE)
+# device = ZigBeeDevice(PORT, BAUD_RATE)
+device = DigiMeshDevice(PORT, BAUD_RATE)
 # : ---
+
+
 info = network_info()
 
 # Callback for discovery device -------------------------

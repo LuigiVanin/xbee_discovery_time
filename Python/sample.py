@@ -27,7 +27,7 @@ from digi.xbee.models.mode import OperatingMode
 # TODO: Replace with the serial port where your local module is connected to.
 PORT = "/dev/ttyUSB1"
 # TODO: Replace with the baud rate of your local module.
-BAUD_RATE = 9600
+BAUD_RATE = 115200
 
 
 def main():
@@ -35,7 +35,7 @@ def main():
     print(" | XBee Python Library Discover Devices Sample |")
     print(" +---------------------------------------------+\n")
 
-    device = ZigBeeDevice(PORT, BAUD_RATE)
+    device = DigiMeshDevice(PORT, BAUD_RATE)
 
     try:
         device.open()
@@ -84,12 +84,12 @@ def main():
         print(remote.get_protocol())
         print("Dispositivo %s " % devices[0].get_node_id())
         #print("Dispositivo %s " % devices[1].get_node_id())
-        print("PAN ID %s " % utils.hex_to_string(devices[0].get_pan_id()))
+        # print("PAN ID %s " % utils.hex_to_string(devices[0].get_pan_id()))
 
         #ver como usar esse metodo
         #device.build_aggregate_routes()
 
-        print(device.get_routes())
+        # print(device.get_routes())
 
 
         sourceAddres=device.get_64bit_addr()
@@ -100,9 +100,9 @@ def main():
         modoDeOperacao=device.operating_mode
         print("Mode de Operacao: %s" % modoDeOperacao)
 
-        print(device.get_route_to_node(devices[0],timeout=30))
+        # print(device.get_route_to_node(devices[0],timeout=30))
 
-        print(device.get_neighbors())
+        # print(device.get_neighbors())
 
         #neighbors=device.get_neighbors()
         #print("Vizinhos: %s" % modoDeOperacao)
